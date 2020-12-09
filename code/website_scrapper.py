@@ -98,8 +98,8 @@ if __name__=='__main__':
     percentage = getPredictor()
     status = busStatus()
     
-	#Write the data to a seperate text file
-	# The included spaces and line breaks are for the website to read so you can ignore those for now
+#Write the data to a seperate text file
+#The included spaces and line breaks are for the website to read so you can ignore those for now
     f = open ("scrapeddata.txt", "w")
     if (percentage<10):
         f.write("  "+str(percentage)+","+status+"\n")
@@ -109,11 +109,11 @@ if __name__=='__main__':
         f.write(str(percentage)+","+status+"\n")
     f.close()
     
-	#Read the data and print it
+    #Read the data and print it
     f=open("scrapeddata.txt", "r")
     print(f.read())
     
-	#Turn on the display
+   #Turn on the display
     subprocess.call('xset dpms force on', shell=True)
     
     # Make sure the server is created at current directory
