@@ -20,5 +20,8 @@ This project was made using my [First_Webpage](https://github.com/Raziz1/First_W
  *  [HTTPServer](https://docs.python.org/3/library/http.server.html)
  *  [webbrowser](https://docs.python.org/3/library/webbrowser.html)
  *  [subprocess](https://docs.python.org/3/library/subprocess.html)
+ 
+ ## HTTP Server
+ *  Ensure that the python (.py) script is in the same 
 
  
