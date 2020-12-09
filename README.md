@@ -22,6 +22,7 @@ This project was made using my [First_Webpage](https://github.com/Raziz1/First_W
  *  [subprocess](https://docs.python.org/3/library/subprocess.html)
  
  ## HTTP Server
- *  Ensure that the python (.py) script is in the same 
+ *  Ensure that the python (.py) script is in the same folder as your html, css, and javascript files.
+ *  You can run the python script or you can manually create a new host port in the terminal by typing `python -m SimpleHTTPServer 8000` (Python 2) or `python3 -m http.server 8000` (Python 3). Then in your browser type in (localhost:8000).
 
  
