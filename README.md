@@ -6,7 +6,7 @@ Using Raspberry Pi and Python to host a local HTTP server
 </p>
 
 ## Overview 📄
-This project was made using my [First_Webpage](https://github.com/Raziz1/First_Webpage) as the website to host. The python script is responsible for scrapping a bit of data for the website and writing to a text file. The python script is also responsible for waking the Raspberry Pi (4) display and running the http server on a seperate thread.
+This project was made using my [First_Webpage](https://github.com/Raziz1/First_Webpage) as the website to host. The python script is responsible for scrapping a bit of data for the website and writing to a text file(Not Relevant). The python script is also responsible for waking the Raspberry Pi (4) display and running the http server on a seperate thread.
 
 ## Libraries 📚
  *  [requests](https://pypi.org/project/requests/)
