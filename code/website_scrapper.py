@@ -116,8 +116,10 @@ if __name__=='__main__':
    #Turn on the display
     subprocess.call('xset dpms force on', shell=True)
     
+    # This line is usless because it confuses the pi into changing the directory to the full path
+    # You can still uses this to ensure it is uses the current path by getting the current path and placing it inside os.chdir(current_path)
     # Make sure the server is created at current directory
-    os.chdir('.')
+    #os.chdir('.')
     print("FOUND DIRECTORY")
     
     #Create server object listening to the port 8000
