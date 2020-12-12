@@ -34,7 +34,7 @@ This project was made using my [First_Webpage](https://github.com/Raziz1/First_W
   3. At the bottom of the terminal type in the interval of execution as well as the path to the python script
       * It should look something like this: `50 5 * * * export DISPLAY:=0 /home/pi/Downloads/script.py` This will run the script every day at 5:50am. You can use [Crontab.guru](https://crontab.guru/) to check your expression. 
       * Ensure that the script has executable permissions by using `chmod a+x script.py`
-      * Ensure that the python script contains "shebang" line at the top `#!/usr/bin/python3`
+      * Ensure that the python script contains "shebang" line at the top `#!/usr/bin/env python3`
       
  <pre># ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
