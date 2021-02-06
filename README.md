@@ -26,6 +26,7 @@ This project was made using my [First_Webpage](https://github.com/Raziz1/First_W
  *  You can run the python script or you can manually create a new host port in the terminal by typing `python -m SimpleHTTPServer 8000` (Python 2) or `python3 -m http.server 8000` (Python 3). Then in your browser type in `localhost:8000`.
  *  To close the server simple press `CTRL + C` in the Terminal window
  * [Serving Files with Python's SimpleHTTPServer Module](https://stackabuse.com/serving-files-with-pythons-simplehttpserver-module/) is a great resource if you need further instruction.
+ * You should be able to access this web page from any device on your local network by typing in the hosts IP address and '8000' in any browser (Eg: `141.21.85.162:8000`)
  
 ## Crontab 🕒
  * Similarly to one of my previous projects you can setup a task scheduler that runs you python script at specified times. This is done by crontab on a raspberry pi.
